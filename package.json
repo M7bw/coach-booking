@@ -1,0 +1,27 @@
+{
+  "name": "coach-booking",
+  "version": "1.0.0",
+  "homepage": "https://M7bw.github.io/coach-booking.git",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+   "predeploy": "npm run build",
+   "deploy": "gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "mongoose": "^9.0.2",
+    "validator": "^13.15.26"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "nodemon": "^3.1.11"
+  }
+}
